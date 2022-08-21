@@ -1,0 +1,15 @@
+1. Installed ZSH
+2. Added the repo for zsh-completions
+	- dnf config-manager --add-repo https://download.opensuse.org/repositories/shells:zsh-users:zsh-completions/Fedora_Rawhide/shells:zsh-users:zsh-completions.repohttps://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions 
+3. Installed zsh-completions
+4. Installed neovim
+5. Installed git
+6. Installed zsh-autosuggestions and zsh-syntax-highlighting
+7. Installed oh-my-zsh
+	- sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+8. Ran ZSH again and did the configuration
+9. Installed powerlevel10k
+	- Install recommended fonts: https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+	- Install Powerlevel10k: https://github.com/romkatv/powerlevel10k#oh-my-zsh
+10. Configured .zshrc to use Powerlevel10, restarted, and configured powerlevel10k
+11. sourced zsh-autocomplete and zsh-syntax-highlighting in .zshrc
